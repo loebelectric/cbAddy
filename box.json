@@ -1,0 +1,22 @@
+{
+    "name":"cbAddy",
+    "version":"1.0.0",
+    "author":"Jeffrey Stevens",
+    "slug":"cbAddy",
+    "type":"modules",
+    "keywords":[
+        "address",
+        "validation",
+        "usps",
+        "ups",
+        "avalara",
+        "api"
+    ],
+    "dependencies":{
+        "xmlTool":"^1.0.0"
+    },
+    "installPaths":{
+        "cbAddy":"modules",
+        "xmlTool":"modules/xmlTool/"
+    }
+}
