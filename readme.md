@@ -139,6 +139,7 @@ PARAMETERS:
                         
 
 @output The format with which to format the output data. There are several valid options for output:
+
         "standardized"
         
             -The standardized form of output between all API clients in cbaddy
