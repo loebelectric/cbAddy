@@ -91,8 +91,8 @@ PARAMETERS:
     
     "prUrbanization" :  Political division 3. Only valid for Puerto Rico.
     
-    "countryCode" :    Country code. United states = US. A list of more valid values can be found in the back of
-                       UPS street level address validation API guide found here: https://www.ups.com/upsdeveloperkit?loc=en_US
+    "countryCode" :     Country code. United states = US. A list of more valid values can be found in the back of
+                        UPS street level address validation API guide found here: https://www.ups.com/upsdeveloperkit?loc=en_US
 
 
 @validationService - A string which names the type of address validation service you wish to access. The following are
