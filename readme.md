@@ -4,8 +4,11 @@ and tells you if they are valid or not. As it is based on the UPS, USPS, and Ava
 cbAddy requires credentials from these services to be used. To receive credentials for 
 these services, please refer to the links below:
 
+
 UPS: https://www.ups.com/upsdeveloperkit?loc=en_US (Free)
+
 USPS: https://www.usps.com/business/web-tools-apis/ (Free)
+
 Avalara: https://www.avalara.com/us/en/products/calculations.html (Need to have an Avatax account to use the API, which costs money)
 
 
@@ -29,7 +32,7 @@ moduleSettings = {
 }
 ```
 
-Inject cbAddy into ithin one of your handlers...
+Inject cbAddy into ithin one of your handlers with wirebox...
 
 ```
 property name="cbAddy"      inject="cbAddy@addressValidationClient";
@@ -49,7 +52,7 @@ validationResult = cbAddy.validate(inputAddress);
 
 ### To install:
 
-Run the following command to install cbaddy into your coldbox project:
+Run the following command to install cbaddy into your coldbox project (commandbox must be installed):
 
 ```
 box install cbaddy
