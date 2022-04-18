@@ -69,30 +69,30 @@ struct function validate(required struct address, validationService="avalara", s
 PARAMETERS:
 @address - A struct containing the address that you want to validate. It should contain the following key-value pairs (all strings):
 
-    "consigneeName" :Name of the business, company or person associated with the address.
+    "consigneeName" :   Name of the business, company or person associated with the address.
     
-    "buildingName" : Name of the building associated with the address
+    "buildingName" :    Name of the building associated with the address
     
-    "addressLine1" : Address line (contains street number, name, and type)
+    "addressLine1" :    Address line (contains street number, name, and type)
     
-    "addressLine2" : 2nd address line
+    "addressLine2" :    2nd address line
     
-    "addressLine3" : 3rd address line
+    "addressLine3" :    3rd address line
     
-    "region" : Combination of city, state, and zip code. If included, will override validation of what is input for "city", "state", "zipCode", and "zipExt".
+    "region" :          Combination of city, state, and zip code. If included, will override validation of what is input for "city", "state", "zipCode", and "zipExt".
     
-    "city" : City or town name
+    "city" :            City or town name
     
     "stateOrProvince" : State or province/territory name
     
-    "zipCode" : Postal code
+    "zipCode" :         Postal code
     
-    "zipExt" : 4 digit postal code extension. For US use only
+    "zipExt" :          4 digit postal code extension. For US use only
     
-    "prUrbanization" : Political division 3. Only valid for Puerto Rico.
+    "prUrbanization" :  Political division 3. Only valid for Puerto Rico.
     
-    "countryCode" : Country code. United states = US. A list of more valid values can be found in the back of
-                    UPS street level address validation API guide found here: https://www.ups.com/upsdeveloperkit?loc=en_US
+    "countryCode" :    Country code. United states = US. A list of more valid values can be found in the back of
+                       UPS street level address validation API guide found here: https://www.ups.com/upsdeveloperkit?loc=en_US
 
 
 @validationService - A string which names the type of address validation service you wish to access. The following are
