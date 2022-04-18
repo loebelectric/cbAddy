@@ -59,7 +59,9 @@ box install cbaddy
 
 Users of cbAddy will primarily use the following function:
 
+```
 struct function validate(required struct address, validationService="avalara", string output="standardized")
+```
 
 PARAMETERS:
 @address - A struct containing the address that you want to validate. It should contain the following key-value pairs (all strings):
@@ -158,7 +160,9 @@ PARAMETERS:
 
 Other functions available for you to use in cbaddy:
 
+```
 pingAvalara()
+```
 
     -No Parameters
     
