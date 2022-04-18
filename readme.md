@@ -32,7 +32,7 @@ moduleSettings = {
 }
 ```
 
-Inject cbAddy into ithin one of your handlers with wirebox...
+Inject cbAddy into ithin one of your handlers with wirebox
 
 ```
 property name="cbAddy"      inject="cbAddy@addressValidationClient";
